@@ -2,7 +2,7 @@ import React from "react";
 import { contactDetails } from "../Details";
 
 function Contact() {
-  const { email, phone } = contactDetails;
+  const { email} = contactDetails;
   return (
     <main className="container mx-auto max-w-md section">
       <h1 className="text-center text-xl md:text-2xl lg:text-4xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
