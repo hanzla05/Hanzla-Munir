@@ -22,12 +22,34 @@ import figma from "./assets/techstack/figma.png";
 // Porject Images
 import projectImage1 from "./assets/projects/myproject1.png";
 import projectImage2 from "./assets/projects/myproject2.png";
-import projectImage3 from "./assets/projects/myproject3.png";
-import projectImage4 from "./assets/projects/myproject4.png";
-import projectImage5 from "./assets/projects/myproject5.png";
-import projectImage6 from "./assets/projects/myproject6.png";
-import projectImage7 from "./assets/projects/myproject77.png";
+import projectImage5 from "./assets/projects/myproject5.jpg";
+import projectImage6 from "./assets/projects/arezio.png";
+import projectImage7 from "./assets/projects/paloc.png";
 import projectImage8 from "./assets/projects/myproject8.png";
+import NextDoor from "./assets/projects/nextdoor.png";
+import Chunky from "./assets/projects/chunkywhitebg.png";
+import skilshare from "./assets/projects/skillshare.png";
+import FMB from "./assets/projects/ffmb.png";
+import MFH from "./assets/projects/mfh.png";
+import Bano from "./assets/projects/BanoLivePicture.png";
+import foodrescue from "./assets/projects/foodrescue.png";
+import foodease from "./assets/projects/foodease.png";
+import Routemate from "./assets/projects/routrmaate.png";
+import TravelCraze from "./assets/projects/travelcraze.png";
+import OpenCar from "./assets/projects/opencar.png";
+import Coccon from "./assets/projects/coccona.png";
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,6 +153,49 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "MFH SUPER APP",
+    image: MFH,
+    description: `The Mfh Super App CUSTOMER is a comprehensive food delivery application that offers users a seamless and convenient way to order food from nearby restaurants and track their orders in real-time. Leveraging advanced technologies, intuitive user interfaces, and robust backend systems, the Mfh Super App provides a delightful and efficient food delivery experience.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "MFH VENDOR",
+    image: MFH,
+    description: `
+    The Mfh Vendor App is a specialized mobile application designed for restaurant owners and vendors participating in the Mfh Super App ecosystem. It empowers restaurant partners to manage their online presence, accept orders, track sales, and engage with customers effectively.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "MFH RIDER",
+    image: MFH,
+    description: `
+    
+The Mfh Rider App is a dedicated mobile application designed for delivery riders participating in the Mfh Super App ecosystem. It provides riders with essential tools and features to efficiently manage order deliveries, navigate routes, and communicate with customers and restaurants.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "Bano Live",
+    image: Bano,
+    description: ` Bano Live is a dynamic live streaming application that enables users to engage in real-time audio and video interactions, participate in chat rooms, send virtual gifts, and explore a vibrant social community. `,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "Food Rescue",
+    image: foodrescue,
+    description: `The FoodRescue app revolutionizes food donation efforts by seamlessly connecting donors, volunteers, and NGOs through live location tracking and intuitive features. Donors can easily list surplus food items with details like quantity and expiration date, while volunteers and NGOs efficiently coordinate pickups and deliveries using real-time location updates.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
     title: "Payfox Digital Wallet",
     image: projectImage1,
     description: `Payfox is a versatile digital wallet application designed to streamline financial transactions for both businesses and individual users. With a focus on convenience and security, PayFox offers a range of features across three main modules: Business, Payment, and User.`,
@@ -146,22 +211,22 @@ export const projectDetails = [
     previewLink: "https://google.com",
     githubLink: "https://github.com/hanzla05",
   },
-  {
-    title: "Love Life Sober Celebration",
-    image: projectImage3,
-    description: `"Love Life Sober Celebration" is an event or program aimed at celebrating and promoting sobriety and healthy living among individuals who have overcome addiction to substances such as alcohol, tobacco, or other harmful habits. The event serves as a platform for individuals to come together, share their experiences, and celebrate their journey towards a healthier and more fulfilling life.`,
-    techstack: "React-Native, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/hanzla05",
-  },
-  {
-    title: "Bike Sharing",
-    image: projectImage4,
-    description: `BikeSharing is a user-friendly mobile application designed to revolutionize urban commuting by providing convenient access to shared bicycles. Whether for short trips around the city or daily commutes to work, BikeSharing offers a sustainable and efficient alternative to traditional transportation methods`,
-    techstack: "React-Native, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com/hanzla05",
-  },
+  // {
+  //   title: "Love Life Sober Celebration",
+  //   image: projectImage3,
+  //   description: `"Love Life Sober Celebration" is an event or program aimed at celebrating and promoting sobriety and healthy living among individuals who have overcome addiction to substances such as alcohol, tobacco, or other harmful habits. The event serves as a platform for individuals to come together, share their experiences, and celebrate their journey towards a healthier and more fulfilling life.`,
+  //   techstack: "React-Native, JavaScript",
+  //   previewLink: "https://google.com",
+  //   githubLink: "https://github.com/hanzla05",
+  // },
+  // {
+  //   title: "Bike Sharing",
+  //   image: projectImage4,
+  //   description: `BikeSharing is a user-friendly mobile application designed to revolutionize urban commuting by providing convenient access to shared bicycles. Whether for short trips around the city or daily commutes to work, BikeSharing offers a sustainable and efficient alternative to traditional transportation methods`,
+  //   techstack: "React-Native, JavaScript",
+  //   previewLink: "https://google.com",
+  //   githubLink: "https://github.com/hanzla05",
+  // },
   {
     title: "Fastfone",
     image: projectImage5,
@@ -171,7 +236,7 @@ export const projectDetails = [
     githubLink: "https://github.com/hanzla05",
   },
   {
-    title: "Aresio",
+    title: "Arezio",
     image: projectImage6,
     description: `Aresio is a dynamic mobile application designed to elevate the experience of celebrating birthdays and special occasions through personalized wishes and creative reels. Combining the functionality of a social networking platform with the excitement of sharing special moments, Aresio offers users a fun and interactive way to connect with friends, family, and loved ones.`,
     techstack: "React-Native, JavaScript",
@@ -179,9 +244,17 @@ export const projectDetails = [
     githubLink: "https://github.com/hanzla05",
   },
   {
-    title: "Salespot",
+    title: "PALOC",
     image: projectImage7,
-    description: `Salespot is a comprehensive mobile application designed to simplify the process of buying a house by providing users with a streamlined platform for browsing listings, connecting with real estate agents, and managing the entire home buying journey. With user-friendly features and robust functionalities, Salespot offers a seamless and efficient experience for users seeking their dream home.`,
+    description: `PALOC is a comprehensive mobile application designed to simplify the process of buying a house by providing users with a streamlined platform for browsing listings, connecting with real estate agents, and managing the entire home buying journey. With user-friendly features and robust functionalities, Salespot offers a seamless and efficient experience for users seeking their dream home.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "Next Door",
+    image: NextDoor,
+    description: `NextDoor is a cutting-edge mobile application tailored specifically for riders, offering a seamless and intuitive platform for accessing transportation services with real-time tracking capabilities, similar to industry giants like Uber.`,
     techstack: "React-Native, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com/hanzla05",
@@ -194,7 +267,74 @@ export const projectDetails = [
     previewLink: "https://google.com",
     githubLink: "https://github.com/hanzla05",
   },
+  {
+    title: "Chunky Chicken",
+    image: Chunky,
+    description: `ChunkyChicken is a robust food delivery application designed to provide users with a convenient and hassle-free way to order their favorite meals from the comfort of their own homes. Inspired by popular food delivery apps like the KFC app, ChunkyChicken offers a comprehensive set of features and functionalities tailored to enhance the user experience`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "SKill Share",
+    image: skilshare,
+    description: `SkillShare is a cutting-edge online platform designed to empower individuals to share their expertise and skills with a global audience through engaging and interactive online courses. As a Final Year Project (FYP) for a Bachelor of Science in Computer Science degree, SkillShare aims to revolutionize online learning by providing a dynamic and user-friendly platform that connects skilled instructors with eager learners. `,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "FMB",
+    image: FMB,
+    description: `FMB (Find My Bathroom) is a revolutionary mobile application designed to simplify the process of locating nearby public bathrooms with the convenience and precision of live Google Maps. Developed to address the common challenge of finding clean and accessible restrooms while on the go, FMB offers users a seamless and efficient solution through the various features`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "Food Ease",
+    image: foodease,
+    description: `
+    FoodEase transforms the dining experience at KFUEIT with its innovative canteen app, offering a seamless blend of convenience and variety akin to popular food delivery platforms. Catering specifically to the needs of students and faculty, FoodEase provides an extensive menu selection, quick ordering options, and efficient delivery services within the campus premises.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "KFUEIT Routmate",
+    image: Routemate,
+    description: `The KFUEIT Routemate app revolutionizes campus transportation by providing comprehensive bus tracking and schedule management services for KFUEIT's fleet of buses. Designed to enhance the commuting experience for students and faculty, Routemate offers real-time tracking of buses, allowing users to conveniently monitor their arrival times and plan their journeys accordingly. Additionally, the app provides access to detailed bus schedules, ensuring users stay informed about departure times and routes.`,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "TravelCraze",
+    image: TravelCraze,
+    description: `
+    TravelCraze is your ultimate companion for all things travel, offering a seamless ticketing experience for vacations, hotel bookings, and more. With TravelCraze, exploring the world becomes effortless as users can easily search and book flights, hotels, and vacation packages tailored to their preferences. `,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "Open Car",
+    image: OpenCar,
+    description: `OpenCar is the ultimate solution for all your automotive needs, providing a comprehensive platform for buying, selling, renting, and tracking vehicles. Whether you're in the market for a new car, looking to sell your current vehicle, or seeking a rental for a weekend getaway, OpenCar has you covered. With an extensive inventory of cars from trusted dealerships and private sellers, users can browse through a wide range of options to find the perfect vehicle that meets their requirements and budget. `,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
+  {
+    title: "Coccon",
+    image: Coccon,
+    description: `Coccon is a revolutionary organizational app dedicated to providing accessible housing solutions for disabled individuals across Australia. With its user-friendly interface and innovative features, Coccon simplifies the process of finding suitable homes by offering a comprehensive database of available properties tailored to the specific needs of disabled individuals. From wheelchair-accessible amenities to proximity to essential services, Coccon ensures that every aspect of housing is catered to, empowering individuals to live independently and comfortably. `,
+    techstack: "React-Native, JavaScript",
+    previewLink: "https://google.com",
+    githubLink: "https://github.com/hanzla05",
+  },
 ];
+  
 
 // Enter your Contact Details here
 export const contactDetails = {
